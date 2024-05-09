@@ -91,3 +91,53 @@ li a{
     height: 200px;
     background-color: blue;
 }
+
+
+/* Regole css seconda section */
+
+#add-partner{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.partner{
+    width: 50%;
+    /* DEBUG */
+    height: 300px;
+    background-color: blue;
+}
+
+
+/* Regole css terza section */
+
+.operation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.operation-column{
+    width: calc(100% / 3 - 20px);
+    /* DEBUG */
+    height: 300px;
+    background-color: blue;
+}
+
+.operation-img{
+    /* DEBUG */
+    height: 200px;
+    background-color: red;
+}
+
+.operation-text{
+    /* DEBUG */
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+
+
