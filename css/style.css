@@ -82,7 +82,7 @@ li a{
 }
 
 .jumbotron-img{
-    width: 160%;
+    width: 150%;
 }
 
 .jumbotron-img img{
@@ -120,25 +120,96 @@ li a{
     font-size: 40px;
 }
 
-.business-plane{
+#bill{
+    margin-top: 40px;
+}
+
+.business-plan{
     display: flex;
     gap: 30px;
     margin-top: 50px;
 }
 
-.price-column{
+.price-col{
     width: calc(100% / 3);
-    /* DEBUG */
-    height: 500px;
-    background-color: blue;
 }
 
-.info-column{
+.col{
+    border: 1px solid gray;
+}
+
+.title-col{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 8px;
+}
+
+.plan-type, .service-plan, .free-test, .highlights-plan{
+    padding: 20px;
+}
+
+.plan-type span{
+    display: block;
+}
+
+.plan-type h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.price, .conctat{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.month{
+    color: lightgray;
+}
+
+.service-plan span{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.shop-now{
+    margin-top: 20px;
+}
+
+.highlights-plan h6{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.highlights-plan ul{
+    list-style-type: none;
+}
+
+.highlights-plan ul li{
+    margin-bottom: 20px;
+}
+
+.fa-check{
+    margin-right: 10px;
+    color: #afccfe;
+}
+
+.info-col{
     width: 100%;
     margin-top: 30px;
-    /* DEBUG */
-    height: 200px;
-    background-color: blue;
+    position: relative;
+}
+
+.info-text{
+    margin-top: 50px;
+}
+
+.info-col .button-link{
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    padding: 10px 30px;
 }
 
 
