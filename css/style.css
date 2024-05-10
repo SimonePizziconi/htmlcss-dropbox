@@ -16,17 +16,18 @@ body{
 header{
     height: 100vh;
     width: 100%;
-    /* DEBUG */
-    background-color: blue;
+    background-color: #b4d0e7;
 }
 
 .header-nav{
-    width: 100%;
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* DEBUG */
+    position: fixed;
+    z-index: 900;
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
     background-color: #fff;
 }
 
@@ -38,26 +39,66 @@ header ul{
 
 li a{
     text-decoration: none;
+    color: #000;
+}
+
+.button-link{
+    color: #fff;
+    background-color: #116bff;
+    padding: 5px 10px;
+    text-decoration: none;
 }
 
 /* Regole Jumbotron */
+
+.jumbotron{
+    padding-top: 50px;
+}
 
 .text-title{
     width: 70%;
     margin: 0 auto;
     margin-top: 100px;
-    /* DEBUG */
-    height: 100px;
-    background-color: pink;
+    font-size: 50px;
 }
+
+.text-jumbotron{
+    width: 40%;
+}
+
+.text-jumbotron p{
+    margin-bottom: 40px;
+}
+
+.text-jumbotron span{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: block;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    color: #000;
+}
+
+.jumbotron-img{
+    width: 160%;
+}
+
+.jumbotron-img img{
+    width: 100%;
+}
+
 
 .jumbotron-flex{
     display: flex;
+    align-items: flex-start;
     width: 70%;
     margin: 0 auto;
-    /* DEBUG */
-    background-color: cadetblue;
-    height:100px;
+    margin-top: 50px;
+    /* DEBUG
+    background-color: cadetblue; */
+    /* height:300px; */
 }
 
 
@@ -70,6 +111,14 @@ li a{
 
 
 /* Regole css prima section */
+
+#business-section{
+    padding-top: 120px;
+}
+
+#business-section h2{
+    font-size: 40px;
+}
 
 .business-plane{
     display: flex;
