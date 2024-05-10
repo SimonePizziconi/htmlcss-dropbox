@@ -277,7 +277,7 @@ li a{
 /* Regole css quarta section */
 
 .dropbox-business{
-    width: 70%;
+    width: 60%;
 }
 
 .dropbox-business h2{
@@ -313,24 +313,46 @@ li a{
 .azienda{
     display: flex;
     align-items: center;
-    /* DEBUG */
-    background-color: aquamarine;
-    height: 300px;
+    background-color: #b4d0e7;
+    height: 400px;
 }
 
 .container-flex{
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
-    align-items: center;
-    /* DEBUG */
-    background-color: aquamarine;
+    background-color: #b4d0e7;
+}
+
+.container-flex h2{
+    color: #7d5574;
+    font-size: 40px;
+}
+
+.button-linkwhite{
+    padding: 8px 30px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid lightgray;
 }
 
 
 /* Regole FAQ Section */
+
 .faq{
-    /* DEBUG */
-    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    border-top: 1px solid black;
+}
+
+.faq-top{
+    margin-top: 50px;
+}
+
+.faq-bottom{
+    border-bottom: 1px solid black;
 }
 
 
@@ -338,6 +360,8 @@ li a{
 
 footer{
     background-color: black;
+    margin-top: 150px;
+    color: #fff;
     /* DEBUG */
     height: 500px;
 }
@@ -345,18 +369,37 @@ footer{
 .footer-container{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .col-footer{
-    width: calc(100% / 5 - 20px);
-    /* DEBUG */
-    background-color: white;
-    height: 200px;
+    width: calc(100% / 5);
+    margin-top: 80px;
 }
 
-footer h6{
-    background-color: #fff;
+.col-footer ul{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.col-footer ul li:first-child{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.col-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-language{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.footer-language a{
+    color: #fff;
 }
