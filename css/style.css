@@ -109,16 +109,17 @@ li a{
     margin: 0 auto;
 }
 
+.main-section{
+    margin-top: 150px;
+}
+
+.main-section h2{
+    font-size: 40px;
+}
+
 
 /* Regole css prima section */
 
-#business-section{
-    padding-top: 120px;
-}
-
-#business-section h2{
-    font-size: 40px;
-}
 
 #bill{
     margin-top: 40px;
@@ -218,15 +219,35 @@ li a{
 #add-partner{
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    margin-top: 50px;
+    gap: 50px;
 }
 
 .partner{
-    width: 50%;
-    /* DEBUG */
-    height: 300px;
-    background-color: blue;
+    width: 40%;
+}
+
+.img-partner{
+    width: 60%;
+}
+
+.partner img{
+    width: 100%;
+}
+
+.partner h4{
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.partner h4, p{
+    margin-bottom: 30px;
+}
+
+.partner .button-link{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid lightgray;
 }
 
 
@@ -236,31 +257,39 @@ li a{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
 }
 
 .operation-column{
-    width: calc(100% / 3 - 20px);
-    /* DEBUG */
-    height: 300px;
-    background-color: blue;
+    width: calc(100% / 3 - 40px);
+    margin-top: 50px;
 }
 
-.operation-img{
-    /* DEBUG */
-    height: 200px;
-    background-color: red;
+.operation-img img{
+    width: 100%;
 }
 
-.operation-text{
-    /* DEBUG */
-    height: 100px;
-    background-color: #fff;
-    border: 1px solid black;
+.operation-text p{
+    margin-top: 20px;
 }
 
 
-/* Regole css Customer */
+/* Regole css quarta section */
+
+.dropbox-business{
+    width: 70%;
+}
+
+.dropbox-business h2{
+    margin-bottom: 50px;
+}
+
+.dropbox-business a{
+    text-decoration: underline;
+}
+
+
+/* REGOLE CSS CUSTOMER */
 
 .customer{
     display: flex;
@@ -331,4 +360,3 @@ footer{
 footer h6{
     background-color: #fff;
 }
-
