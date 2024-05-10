@@ -184,3 +184,31 @@ li a{
     border: 2px solid black;
 }
 
+
+/* REGOLE CSS FOOTER */
+
+footer{
+    background-color: black;
+    /* DEBUG */
+    height: 500px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-footer{
+    width: calc(100% / 5 - 20px);
+    /* DEBUG */
+    background-color: white;
+    height: 200px;
+}
+
+footer h6{
+    background-color: #fff;
+}
+
