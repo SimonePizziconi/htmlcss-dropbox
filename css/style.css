@@ -105,7 +105,7 @@ li a{
 /* REGOLE CSS MAIN */
 
 .container{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -167,13 +167,6 @@ li a{
     color: lightgray;
 }
 
-.service-plan span{
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-}
-
 .shop-now{
     margin-top: 20px;
 }
@@ -183,16 +176,22 @@ li a{
     margin-bottom: 30px;
 }
 
-.highlights-plan ul{
+.price-col ul{
     list-style-type: none;
 }
 
-.highlights-plan ul li{
+.price-col ul li{
     margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
 }
 
-.fa-check{
+li .fa-user, .fa-check, .fa-folder, .fa-share-nodes{
     margin-right: 10px;
+    margin-top: 5px;
+}
+
+li .fa-check{
     color: #afccfe;
 }
 
